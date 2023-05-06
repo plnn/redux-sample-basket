@@ -1,0 +1,23 @@
+.btn {
+font-size:14px;
+line-height: 18px;
+color: #fff;
+letter-spacing: 0.8;
+width: 100%;
+border: none;
+padding: 19px 0;
+font-family: 'nunito';
+&__default {
+    background-color: #E82223;
+
+}
+&__outlined {
+    background-color: transparent;
+    color: #E82223;
+}
+&__disabled {
+    background-color: #BBC3CF;
+    pointer-events: none;
+}
+
+}

@@ -1,0 +1,49 @@
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 550px;
+    .title {
+        font-family: 'nunito';
+    }
+    .input-container {
+        input {
+            border: none;
+            border-bottom: solid 1px #BBC3CF;
+            font-size: 16px;
+            line-height: 24px;
+            color: #64738C;
+            &:last-child {
+                margin-top: 53.5px;
+            }
+        }
+    }
+    .button-container {
+        margin-top: 37px;
+    }
+    .locale-container {
+        margin-top: 37px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.logged-in-user-container {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 48px);
+    padding: 0 24px;
+    @media screen and (min-width: 1200px) {
+        padding:0;
+        width: 30%;
+    }
+    .name{
+        font-family: 'nunito';
+        font-size: 36px;
+        line-height: 49px;
+        margin-bottom: 36px;
+    }
+    .item {
+        font-family: 'prodisplay';
+    }
+}
